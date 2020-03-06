@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainlog_1"
+    tools:context=".chef_login">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="221dp"
+        android:layout_marginTop="250dp">
+
+        <EditText
+            android:id="@+id/cuser"
+            android:layout_width="355dp"
+            android:layout_height="55dp"
+            android:ems="10"
+            android:hint="FullName"
+            android:inputType="text"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/cbtn"
+        android:layout_width="116dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="252dp"
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="221dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="20dp">
+
+        <EditText
+            android:id="@+id/cpass"
+            android:layout_width="355dp"
+            android:layout_height="55dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textSize="25dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

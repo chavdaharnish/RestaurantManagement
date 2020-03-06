@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/restaurant_11">
+
+    <Button
+        android:id="@+id/cust_btn"
+        android:layout_width="114dp"
+        android:layout_height="98dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/maincust_1"
+        android:scaleType="center"
+        tools:layout_marginTop="55dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="118dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/cust_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/insert_1"
+        android:text="Login as Customer"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.22" />
+
+    <Button
+        android:id="@+id/manager_btn"
+        android:layout_width="89dp"
+        android:layout_height="89dp"
+        android:layout_below="@+id/text1"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/mainmanager_1"
+        android:scaleType="center"
+        tools:layout_marginTop="55dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="106dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/manager_btn"
+        android:layout_alignLeft="@+id/manager_btn"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/insert_1"
+        android:text="Login as Manager"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.22" />
+
+    <Button
+        android:id="@+id/chef_btn"
+        android:layout_width="89dp"
+        android:layout_height="89dp"
+        android:layout_below="@+id/text1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/mainchef_1"
+        android:scaleType="center"
+        tools:layout_marginTop="55dp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/manager_btn"
+        android:layout_alignLeft="@+id/chef_btn"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/insert_1"
+        android:text="Login as Chef"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.22" />
+
+
+</RelativeLayout>

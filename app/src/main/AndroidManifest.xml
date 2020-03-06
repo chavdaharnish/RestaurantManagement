@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.restaurantmanagment">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".OTP"></activity>
+        <activity android:name=".Email" />
+        <activity android:name=".OTPvar" />
+        <activity android:name=".New_Login" />
+        <activity android:name=".QRCode" />
+        <activity android:name=".Cart" />
+        <activity android:name=".Card_Pizza" />
+        <activity android:name=".Card_Roti" />
+        <activity android:name=".Card_Chinese" />
+        <activity android:name=".Card_South" />
+        <activity android:name=".Card_Punjabi" />
+        <activity android:name=".Food_Bottom_Nav" />
+        <activity android:name=".account_fragment" />
+        <activity android:name=".home_fragment" />
+        <activity android:name=".cart_fragment" />
+        <activity android:name=".FoodAct" />
+        <activity android:name=".cust_signup" />
+        <activity android:name=".Frag2" />
+        <activity android:name=".Frag1" />
+        <activity
+            android:name=".Main2ActFrag"
+            android:label="@string/title_activity_main2_act_frag"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".cust_login" />
+        <activity android:name=".TableFormate" />
+        <activity android:name=".chef_login" />
+        <activity android:name=".manager_login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RestaurantManagment</string>
+    <string name="title_activity_customer_login">customer_login</string>
+    <string name="tab_text_1">Email</string>
+    <string name="tab_text_2">Phone</string>
+    <string name="title_activity_main2_act_frag">Main2ActFrag</string>
+    <string name="title_activity_foody">FoodyAct</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_foodt_act__navigation">FoodtAct_Navigation</string>
+    <string name="title_activity_foody__bottom__nav">Foody_Bottom_Nav</string>
+</resources>
